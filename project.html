@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Google Sign Up</title>
+</head>
+<body>
+    <div class="container-fluid bg-light row">
+        <div class="h4 col-2"><span style="color: blue;">G</span><span style="color:red;">o</span><span style="color:orange;">o</span><span style="color:blue;">g</span><span style="color: green;">l</span><span style="color:red;">e</span></div>
+        <div class="col-9"></div>
+        <div class="col-1 "> <button class="btn btn-sm btn-primary">Sign In</button></div>
+    </div>    
+    <div class="container-fluid text-center "><h2>Create Your Google Account</h2></div> <br>
+    <div class="container row ">
+        <div class="col-5 ml-5 pl-5">
+            <div class="container text-center small"><h4 >One Account is all you need</h4>
+                <p>A Single username and password gets you everything with Google</p> 
+                <img src="Project Images/google.png" alt="" height="20px">
+                <img src="Project Images/cloud.png" alt="" height="20px">
+                <img src="Project Images/chrome.png" alt="" height="20px">
+                <img src="Project Images/vector.jpg" alt="" height="20px">
+                <img src="Project Images/maps.png" alt="" height="20px">
+                <img src="Project Images/g+.png" alt="" height="20px">
+                <img src="Project Images/gmail.png" alt="" height="20px">   
+            </div> <br>
+            <div class="container text-center small"><h4>Make Google yours</h4>
+                <p>Set up your profile and preferences as you like</p>
+                <img src="Project Images/3cards.jpg" alt="" height="90px">
+            </div> <br>
+            <div class="container text-center small"><h4>Take it all with you</h4>
+                <p>Switch between devices and pickup wherever you left off.</p>
+                <img src="Project Images/Computer.jpg" alt="" height="90px">
+            </div>
+        </div>
+        <div class="container col-4">
+            <div class="container bg-light">
+                <form action="get" class="small bg-light">
+                    <label for="name"> Name: </label> <br>
+                    <input type="text" id="fname" name="fname" class="small" placeholder="John">
+                    <input type="text" id="lname" name="lname" class="small" placeholder="Smith"> <br>
+                    <label for="username">Choose your Username:</label><br>
+                    <input type="email" id="username" name="username" class="small" style="width: 76%; " placeholder="johnsmith@gmail.com">
+                    <label for="password">Create a Password:</label>
+                    <input type="password" id="password" name="password" class="small" style="width: 76%;"> 
+                    <label for="password">Confirm your Password:</label>
+                    <input type="password" id="password" name="password" class="small" style="width: 76%;"><br>
+                    <label for="Birthdate" >Birthdate:</label><br>
+                    <input type="month" id="birthdate" name="birthdate">  <br>
+                    <label for="Gender">Gender:</label><br>
+                    <select name="Gender" id="" style="width: 76%;">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select><br>
+                    <label for="Phone">Mobile Phone:</label><br>
+                    <input type="number" id="Mobile" name="Mobile" style="width: 76%;" > <br>
+                    <label for="Email">Your Current Email Address:</label><br>
+                    <input type="email" id="Email" name="Email" style="width: 76%;"><br>
+                    <p>Prove you are not robot:</p>
+                    <input type="checkbox" name="skip"> <label for="skip">Skip this Application</label><br>
+                    <img src="Project Images/captcha.png" alt="" height="75px"><br>
+                    <label for="Location">Location:</label><br>
+                    <select name="Location" id="Location" style="width: 76%;">
+                        <option value="UK">United Kingdom</option>
+                        <option value="USA">America</option>
+                        <option value="Canada">Canada</option>
+                    </select> <br><br>
+                    <input type="checkbox" name="Terms" id="Terms"> <span> I agree to the Google <a href="">Terms of Services</a> and
+                        <a href="">Privacy Policy</a> </span> <br><br>
+                    <button class="btn btn-success btn-sm float-right">Next Step</button> <br><br>
+                        <!-- continue from here -->
+                </form>
+            </div>
+            <div class="container"> <p><small> <a href="#">Learn More</a> about why we ask for this information</p></small></div>
+        </div>
+    </div>
+    <div class="footer bg-light">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light ">
+            <a href="" class="navbar-brand">Google</a>
+            <ul class="navbar-nav"> 
+                <li class="nav-item"><a href="" class="nav-link">Privacy&Terms</a></li>
+                <li class="nav-item"><a href="" class="nav-link" >Help</a></li>
+            </ul>
+            <ul class="navbar-nav navbar-right ml-auto"> 
+                <li class="nav-item"><a href="" class="nav-link"><img src="Project Images/lang.png" alt="" height="20px"></a></li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-secondary btn-sm dropdown-toggle " data-toggle="dropdown" type="button"><small> English(United States)</small></button>
+                        <div class="dropdown-menu">
+                            <a href="" class="dropdown-item">Item1</a>
+                            <a href="" class="dropdown-item">Item2</a>
+                            <a href="" class="dropdown-item">Item3</a>
+                        </div>
+                    </div></li>
+            </ul>
+        </nav>
+        
+    </div>
+</body>
+</html>
